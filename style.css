@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    margin: 0;
+}
+
+.container {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border: 4px solid black;
+    width: 400px;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.item {
+    margin-bottom: 10px;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: blue(205, 216, 228);
+    border-radius: 5px;
+}
+
+.question:hover {
+    background-color:blueviolet;
+}
+
+.icon {
+    font-weight: bolder;
+}
